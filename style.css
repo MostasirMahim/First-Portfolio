@@ -1,0 +1,85 @@
+body {
+    .bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      margin: 0;
+      
+}
+#welcome{
+    font-size: 50px;
+    
+}
+#dream{
+    font-size: 40px;
+}
+.namehighlight{
+    color:rgb(255, 102, 0);
+}
+.halfW{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.halfW img{
+    width: 100%;
+}
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+.topB{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+#topT{
+    padding-top: 20px;
+}
+p{
+    margin-bottom: 30px;
+}
+.btn{
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.dreamA{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.expo{
+  height: 80%;
+  background-color: white;  
+  box-shadow: 10px 15px 40px gray;
+}
+#expe{
+    margin-left: 5%;
+}
+#full{
+    border-left: 7px solid;
+   
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+   
+    border-image: linear-gradient(180deg, cyan,blue);
+    border-image-slice: 1;
+}
+.experience{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
